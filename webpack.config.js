@@ -6,11 +6,16 @@ const
 
 module.exports = {
    mode: NODE_ENV,//'production, development',
-   entry: './app.js',
+   context: __dirname + '/frontend',
+   entry: {
+      home: './home',
+      contact: './contact',
+      about: './about'
+   },
    output: {
-      filename: 'bundle.js',
-      path: path.resolve(__dirname, 'dist'),
-      library: 'home'
+      filename: '[name].js',
+      path: path.resolve(__dirname, 'public'),
+      library: '[name]'
    },
    devtool: NODE_ENV === 'development' ? "cheap-inline-module-source-map" : 'none',
    watch: NODE_ENV === 'development',
