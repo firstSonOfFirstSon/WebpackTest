@@ -1,10 +1,10 @@
-const User = require('./User');
+import User from './User';
 
 let someBody = new User('Jack');
-debugger;
+//debugger;
 someBody.seyHi();
 
-module.exports = {
+export default {
    getTime() {
       return new Date().getTime();
    }

@@ -1,13 +1,13 @@
-//export default
 'use script';
 
-module.exports = class User {
+export default class User {
    constructor(name){
       this.name = name;
    }
 
    seyHi() {
-      console.log(`Hi, a'm ${this.name}!!!!`)
+      console.log(NODE_ENV);
+      console.log(`Hi, a'm ${this.name}!!!! NODE_ENV = ${NODE_ENV}`)
    }
 }
 
