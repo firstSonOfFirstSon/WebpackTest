@@ -1,0 +1,885 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.0",
+  "hash": "e71f57533fe558e407ca",
+  "time": 849,
+  "builtAt": 1569601909001,
+  "publicPath": "",
+  "outputPath": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\public",
+  "assetsByChunkName": {
+    "about": "about.js",
+    "contact": "contact.js",
+    "home": "home.js"
+  },
+  "assets": [
+    {
+      "name": "about.js",
+      "size": 11324,
+      "chunks": [
+        "about"
+      ],
+      "chunkNames": [
+        "about"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "contact.js",
+      "size": 11337,
+      "chunks": [
+        "contact"
+      ],
+      "chunkNames": [
+        "contact"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "home.js",
+      "size": 11342,
+      "chunks": [
+        "home"
+      ],
+      "chunkNames": [
+        "home"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "home": {
+      "chunks": [
+        "home"
+      ],
+      "assets": [
+        "home.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "contact": {
+      "chunks": [
+        "contact"
+      ],
+      "assets": [
+        "contact.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "about": {
+      "chunks": [
+        "about"
+      ],
+      "assets": [
+        "about.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "home": {
+      "chunks": [
+        "home"
+      ],
+      "assets": [
+        "home.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "contact": {
+      "chunks": [
+        "contact"
+      ],
+      "assets": [
+        "contact.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "about": {
+      "chunks": [
+        "about"
+      ],
+      "assets": [
+        "about.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "about",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1270,
+      "names": [
+        "about"
+      ],
+      "files": [
+        "about.js"
+      ],
+      "hash": "af82f2d4f78100b7239a",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./User.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\User.js",
+          "name": "./User.js",
+          "index": 1,
+          "index2": 0,
+          "size": 1079,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "home",
+            "contact",
+            "about"
+          ],
+          "issuer": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "issuerId": "./home.js",
+          "issuerName": "./home.js",
+          "issuerPath": [
+            {
+              "id": "./home.js",
+              "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "name": "./home.js",
+              "profile": {
+                "factory": 48,
+                "building": 589
+              }
+            }
+          ],
+          "profile": {
+            "factory": 32,
+            "building": 118
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./about.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./about.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            },
+            {
+              "moduleId": "./contact.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+              "module": "./contact.js",
+              "moduleName": "./contact.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./contact.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+              "module": "./contact.js",
+              "moduleName": "./contact.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            },
+            {
+              "moduleId": "./home.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./home.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use script';\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar User =\n/*#__PURE__*/\nfunction () {\n  function User(name) {\n    _classCallCheck(this, User);\n\n    this.name = name;\n  }\n\n  _createClass(User, [{\n    key: \"seyHi\",\n    value: function seyHi() {\n      console.log(NODE_ENV);\n      console.log(\"Hi, a'm \".concat(this.name, \"!!!! NODE_ENV = \").concat(NODE_ENV));\n    }\n  }]);\n\n  return User;\n}();\n\nexport { User as default };"
+        },
+        {
+          "id": "./about.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+          "name": "./about.js",
+          "index": 3,
+          "index2": 3,
+          "size": 191,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "about"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 115,
+            "building": 522,
+            "dependencies": 24
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./about",
+              "loc": "about"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import User from './User';\nvar someBody = new User('Luci');\nsomeBody.seyHi();\nvar elem = document.createElement('h1');\nelem.innerHTML = 'Ðž ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸';\ndocument.body.appendChild(elem);"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "about",
+          "request": "./about",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1267,
+      "names": [
+        "contact"
+      ],
+      "files": [
+        "contact.js"
+      ],
+      "hash": "56d5a82314526088a5e3",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./User.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\User.js",
+          "name": "./User.js",
+          "index": 1,
+          "index2": 0,
+          "size": 1079,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "home",
+            "contact",
+            "about"
+          ],
+          "issuer": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "issuerId": "./home.js",
+          "issuerName": "./home.js",
+          "issuerPath": [
+            {
+              "id": "./home.js",
+              "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "name": "./home.js",
+              "profile": {
+                "factory": 48,
+                "building": 589
+              }
+            }
+          ],
+          "profile": {
+            "factory": 32,
+            "building": 118
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./about.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./about.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            },
+            {
+              "moduleId": "./contact.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+              "module": "./contact.js",
+              "moduleName": "./contact.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./contact.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+              "module": "./contact.js",
+              "moduleName": "./contact.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            },
+            {
+              "moduleId": "./home.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./home.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use script';\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar User =\n/*#__PURE__*/\nfunction () {\n  function User(name) {\n    _classCallCheck(this, User);\n\n    this.name = name;\n  }\n\n  _createClass(User, [{\n    key: \"seyHi\",\n    value: function seyHi() {\n      console.log(NODE_ENV);\n      console.log(\"Hi, a'm \".concat(this.name, \"!!!! NODE_ENV = \").concat(NODE_ENV));\n    }\n  }]);\n\n  return User;\n}();\n\nexport { User as default };"
+        },
+        {
+          "id": "./contact.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+          "name": "./contact.js",
+          "index": 2,
+          "index2": 2,
+          "size": 188,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "contact"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 116,
+            "building": 527,
+            "dependencies": 18
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./contact",
+              "loc": "contact"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import User from './User';\nvar someBody = new User('Kate');\nsomeBody.seyHi();\nvar elem = document.createElement('h1');\nelem.innerHTML = 'ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚Ñ‹';\ndocument.body.appendChild(elem);"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "contact",
+          "request": "./contact",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1282,
+      "names": [
+        "home"
+      ],
+      "files": [
+        "home.js"
+      ],
+      "hash": "e7eddda6f45717cfc594",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./User.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\User.js",
+          "name": "./User.js",
+          "index": 1,
+          "index2": 0,
+          "size": 1079,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "home",
+            "contact",
+            "about"
+          ],
+          "issuer": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "issuerId": "./home.js",
+          "issuerName": "./home.js",
+          "issuerPath": [
+            {
+              "id": "./home.js",
+              "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "name": "./home.js",
+              "profile": {
+                "factory": 48,
+                "building": 589
+              }
+            }
+          ],
+          "profile": {
+            "factory": 32,
+            "building": 118
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./about.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./about.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            },
+            {
+              "moduleId": "./contact.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+              "module": "./contact.js",
+              "moduleName": "./contact.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./contact.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+              "module": "./contact.js",
+              "moduleName": "./contact.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            },
+            {
+              "moduleId": "./home.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./User",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./home.js",
+              "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "harmony import specifier",
+              "userRequest": "./User",
+              "loc": "2:19-23"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use script';\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar User =\n/*#__PURE__*/\nfunction () {\n  function User(name) {\n    _classCallCheck(this, User);\n\n    this.name = name;\n  }\n\n  _createClass(User, [{\n    key: \"seyHi\",\n    value: function seyHi() {\n      console.log(NODE_ENV);\n      console.log(\"Hi, a'm \".concat(this.name, \"!!!! NODE_ENV = \").concat(NODE_ENV));\n    }\n  }]);\n\n  return User;\n}();\n\nexport { User as default };"
+        },
+        {
+          "id": "./home.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "name": "./home.js",
+          "index": 0,
+          "index2": 1,
+          "size": 203,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "home"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 48,
+            "building": 589
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./home",
+              "loc": "home"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import User from './User';\nvar someBody = new User('Jack');\nsomeBody.seyHi();\nvar elem = document.createElement('h1');\nelem.innerHTML = 'Ð“Ð»Ð°Ð²Ð½Ð°Ñ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°';\ndocument.body.appendChild(elem);"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "home",
+          "request": "./home",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./User.js",
+      "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\User.js",
+      "name": "./User.js",
+      "index": 1,
+      "index2": 0,
+      "size": 1079,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "home",
+        "contact",
+        "about"
+      ],
+      "issuer": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+      "issuerId": "./home.js",
+      "issuerName": "./home.js",
+      "issuerPath": [
+        {
+          "id": "./home.js",
+          "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "name": "./home.js",
+          "profile": {
+            "factory": 48,
+            "building": 589
+          }
+        }
+      ],
+      "profile": {
+        "factory": 32,
+        "building": 118
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./about.js",
+          "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./User",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": "./about.js",
+          "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "type": "harmony import specifier",
+          "userRequest": "./User",
+          "loc": "2:19-23"
+        },
+        {
+          "moduleId": "./contact.js",
+          "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+          "module": "./contact.js",
+          "moduleName": "./contact.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./User",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": "./contact.js",
+          "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+          "module": "./contact.js",
+          "moduleName": "./contact.js",
+          "type": "harmony import specifier",
+          "userRequest": "./User",
+          "loc": "2:19-23"
+        },
+        {
+          "moduleId": "./home.js",
+          "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./User",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": "./home.js",
+          "moduleIdentifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "type": "harmony import specifier",
+          "userRequest": "./User",
+          "loc": "2:19-23"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use script';\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar User =\n/*#__PURE__*/\nfunction () {\n  function User(name) {\n    _classCallCheck(this, User);\n\n    this.name = name;\n  }\n\n  _createClass(User, [{\n    key: \"seyHi\",\n    value: function seyHi() {\n      console.log(NODE_ENV);\n      console.log(\"Hi, a'm \".concat(this.name, \"!!!! NODE_ENV = \").concat(NODE_ENV));\n    }\n  }]);\n\n  return User;\n}();\n\nexport { User as default };"
+    },
+    {
+      "id": "./about.js",
+      "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\about.js",
+      "name": "./about.js",
+      "index": 3,
+      "index2": 3,
+      "size": 191,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "about"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 115,
+        "building": 522,
+        "dependencies": 24
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./about",
+          "loc": "about"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import User from './User';\nvar someBody = new User('Luci');\nsomeBody.seyHi();\nvar elem = document.createElement('h1');\nelem.innerHTML = 'Ðž ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸';\ndocument.body.appendChild(elem);"
+    },
+    {
+      "id": "./contact.js",
+      "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\contact.js",
+      "name": "./contact.js",
+      "index": 2,
+      "index2": 2,
+      "size": 188,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "contact"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 116,
+        "building": 527,
+        "dependencies": 18
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./contact",
+          "loc": "contact"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import User from './User';\nvar someBody = new User('Kate');\nsomeBody.seyHi();\nvar elem = document.createElement('h1');\nelem.innerHTML = 'ÐšÐ¾Ð½Ñ‚Ð°ÐºÑ‚Ñ‹';\ndocument.body.appendChild(elem);"
+    },
+    {
+      "id": "./home.js",
+      "identifier": "C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\node_modules\\babel-loader\\lib\\index.js??ref--4!C:\\Users\\ro.ershov\\Projects\\WebpackTest\\WebpackTest\\frontend\\home.js",
+      "name": "./home.js",
+      "index": 0,
+      "index2": 1,
+      "size": 203,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "home"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 48,
+        "building": 589
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./home",
+          "loc": "home"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import User from './User';\nvar someBody = new User('Jack');\nsomeBody.seyHi();\nvar elem = document.createElement('h1');\nelem.innerHTML = 'Ð“Ð»Ð°Ð²Ð½Ð°Ñ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°';\ndocument.body.appendChild(elem);"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
+‡ ¢¥àè¨âì ¢ë¯®«­¥­¨¥ ¯ ª¥â­®£® ä ©«  [Y(¤ )/N(­¥â)]? ‡ ¢¥àè¨âì ¢ë¯®«­¥­¨¥ ¯ ª¥â­®£® ä ©«  [Y(¤ )/N(­¥â)]? 

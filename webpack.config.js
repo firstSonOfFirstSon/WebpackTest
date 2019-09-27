@@ -4,6 +4,12 @@ const
    //  UglifyJsPlugin = require('uglifyjs-webpack-plugin'),
      NODE_ENV = 'development';     
 
+
+/*
+ npx webpack --json --profile > stats.json
+ http://webpack.github.io/analyse/
+*/
+
 module.exports = {
    mode: NODE_ENV,//'production, development',
    context: __dirname + '/frontend',
@@ -26,6 +32,14 @@ module.exports = {
       new webpack.DefinePlugin({
          NODE_ENV: JSON.stringify(NODE_ENV)
       })
+      
+      /*      
+       Ддя сборки общего кода
+       new webpack.optimize.CommonsChunkPlugin({
+          name: 'commons',
+       })   
+      */
+      
    ],
    module: {
       rules: [
@@ -41,12 +55,14 @@ module.exports = {
             }
          }
       ]      
-   }/* Непонятно на кой хер нужен, если mode = production минимизирует и так 
+   },
    optimization: {
+      //noEmitOnErrors: true, Не выдавать сборке с ошибками
+   /* Непонятно на кой хер нужен, если mode = production минимизирует и так 
       minimizer: [
          new UglifyJsPlugin({
         test: /\.js(\?.*)?$/i,
       }),
-      ],
-   }*/
+      ],*/
+   }
 };
