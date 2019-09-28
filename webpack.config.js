@@ -21,7 +21,8 @@ module.exports = {
    output: {
       filename: '[name].js',
       path: path.resolve(__dirname, 'public'),
-      library: '[name]'
+      library: '[name]',
+      sourceMapFilename: '[file].map[query]'//only when devtool = "source-map"
    },
    devtool: NODE_ENV === 'development' ? "cheap-inline-module-source-map" : 'none',
    watch: NODE_ENV === 'development',
