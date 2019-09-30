@@ -1,0 +1,15 @@
+.my-Menu__arrow {
+   cursor: pointer;   
+}
+
+.my-Menu .my-Menu__arrow:before {
+   content: '▼'
+}
+
+.my-Menu.close .my-Menu__arrow:before {
+   content: '>'
+}
+
+.my-Menu.close > li {
+   display: none;
+}
