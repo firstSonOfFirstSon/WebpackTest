@@ -5,12 +5,7 @@ let someBody = new User('Kate');
 
 someBody.seyHi();
 //debugger;
-let 
-   menu = new Menu({
-      title: 'Contact list',
-      items: ['Luci 5555555', 'Sara 12467', 'Ameli 653234']
-   }),
-   elem = document.createElement('h1');
+let elem = document.createElement('h1');
 
 elem.innerHTML = 'Контакты';
 
@@ -35,4 +30,11 @@ button.addEventListener('click', () => {
    */
 });
 
-document.body.appendChild(menu.render());
+import('./Menu').then( Menu => {
+   let menu = new Menu.default ({
+      title: 'Contact list',
+      items: ['Luci 5555555', 'Sara 12467', 'Ameli 653234']
+   });
+        
+   document.body.appendChild(menu.render());
+});
